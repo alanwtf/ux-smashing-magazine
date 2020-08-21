@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .first{
@@ -73,15 +74,16 @@ nav{
 .seriously{
     position: absolute;
     top: 160px;
-    left: 1200px;
+    right: 60px;
     height: 65px;
     width: 200px;
 }
 
-.articles{
+.main-articles{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 10px 20px;
+    border-bottom: 1px solid black;
 }
 
 .article{
@@ -138,4 +140,180 @@ nav{
     left: 50px;
     width: 50px;
     height: 30px;
+}
+
+.secondary-articles{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 50px;
+    grid-gap: 20px;
+    margin-bottom: 80px;
+}
+
+.secondary-art{
+    padding: 10px;
+    height: auto;
+    position: relative;
+}
+
+.first-line{
+    height: 550px;
+}
+
+.date{
+    height: 14px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.sec-article-title-line{
+    height: 25px;
+    width: 80%;
+    margin-bottom: 5px;
+}
+
+.sec-article-author{
+    height: 14px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.sec-article-text{
+    height: 200px;
+    width: 90%; 
+    margin-top: 20px;
+}
+
+.sec-article-arrow{
+    position: absolute;
+    bottom: 40px;
+    width: 40px;
+    height: 20px;
+}
+
+.articles-ad{
+    background-color: rgba(0,0,0,.9);
+    border-radius: 10px;
+    height: 750px;
+}
+
+.ad-linee{
+    height: auto;
+}
+
+.ad-imgg{
+    display: block;
+    height: 200px;
+    width: 200px;
+    margin: 40px auto;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.ad-titlee{
+    height: 60px;
+    width: 80%;
+    margin: 20px auto 10px auto;
+    background-color: #fff;
+    border-radius: 3px;
+}
+.ad-titlee-2{
+    height: 60px;
+    width: 40%;
+    margin: 0 auto 30px auto;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.ad-textt{
+    height: 150px;
+    width: 80%;
+    margin: 0 auto 30px auto;
+    background-color: rgba(255,255,255,.7);
+    border-radius: 3px;
+}
+
+.ad-btnn{
+    height: 60px;
+    width: 50%;
+    margin: 0 auto 10px auto; 
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.ad-already{
+    height: 14px;
+    width: 40%;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,.5);
+    border-radius: 3px;
+}
+
+.see-more{
+    height: 30px;
+    width: 20%;
+    margin: 0 auto 50px auto;
+}
+
+.border{
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.click-ad{
+    width: 100%;
+    /* height: 800px; */
+    padding: 20px;
+    padding-top: 60px;
+    background-color: rgba(0,0,0,.9);
+}
+
+.click-date{
+    height: 20px;
+    width: 22%;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,.5);
+    border-radius: 3px;
+}
+
+.click-title{
+    height: 60px;
+    width: 60%;
+    margin: 30px auto;
+    background-color: rgba(255,255,255,.9);
+    border-radius: 3px;
+}
+
+.click-title-2{
+    margin-top: 10px;
+    width: 40%;
+}
+
+.click-description{
+    height: 30px;
+    width: 60%;
+    margin: 40px auto 0 auto;
+    background-color: rgba(255,255,255,.7);
+    border-radius: 3px;
+}
+
+.click-description-2{
+    width: 40%;
+    margin: 20px auto;
+}
+
+.click-btn{
+    height: 60px;
+    width: 30%;
+    margin: 60px auto 20px auto;
+    background-color: rgba(255,255,255,.9);
+    border-radius: 3px;
+}
+
+.click-img{
+    height: 500px;
+    width: 500px;
+    border-radius: 30%;
+    margin: 50px auto;
+    background-color: rgba(255,255,255,.7);
 }
